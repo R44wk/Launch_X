@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <style type='text/css'>body{background:transparent url(background.jpg) no-repeat scroll center top;color:rgb(11, 233, 3);text-align:center;}</style> <!--background-zise: cover;-->
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="R4wk">
+    <meta name="keywords" content="chocolate, cupcakes, pastel, dulce, café, postres, mousse, tarta, galletas, repostería, pastelería, pastelitos, cajeta, birthday, pastelerías, gomitas, dulcería, biszcocho">
+    
+    <title>Pedido</title>
+    <link rel="icon" href="cake.png">
+
+</head>
+
+<body>
+
+
+
+<div id="pedidos" class="modal">
+    <form>
+            <h3>Pedir Producto</h3>
+            <div class="form-group col40"><label>Piezas</label><input name="inpPza" type="number" min="1" max="50" value="1" required=""></div><br>
+            <div class="form-group col40"><label>Fecha de Entrega</label><input type="date" id="fecha1" name="fecha1"></div><br>
+            <div class="form-group col40"><label>Nombre</label><input name="inpNombre" type="text" required=""></div><br>
+            <div class="form-group col40"><label>E-Mail</label><input name="inpMail" type="text" required=""></div><br>
+            <div class="form-group col40"><label class="small">Tel.</label><input name="inpTel" type="tel" required="" placeholder="55 12340000"></div><br>
+            <div class="form-group col40"><label>Dirección</label><input name="inpDir" type="text" maxlength="50"></div><br><br>
+            <h4>Selecciona tu decoracion </h4><br>
+            <center><table>
+                <td><label for="radio1"><img src="./assets/img/productos/adorno/1.jpeg" alt="??" width="100px" heigth="100px" /></label>
+                    <input type="radio" id="radio1" name="name" value="1" />
+                </td>
+
+                <td><label for="radio1"><img src="./assets/img/productos/adorno/2.png" alt="??" width="100px" heigth="100px" /></label>
+                    <input type="radio" id="radio1" name="name" value="1" />
+                </td>
+
+                <td><label for="radio1"><img src="./assets/img/productos/adorno/3.jpeg" alt="??" width="100px" heigth="100px" /></label>
+                    <input type="radio" id="radio1" name="name" value="1" />
+                </td>
+
+                <td><label for="radio1"><img src="./assets/img/productos/adorno/4.webp" alt="??" width="100px" heigth="100px" /></label>
+                    <input type="radio" id="radio1" name="name" value="1" />
+                </td>
+
+                <td><label for="radio1"><img src="./assets/img/productos/adorno/5.webp" alt="??" width="100px" heigth="100px" /></label>
+                    <input type="radio" id="radio1" name="name" value="1" />
+                </td>
+
+            </table><center><br>
+            
+            <input type="button" id="enviar" name="enviar" value="Enviar" onclick="alert('Tu pedido fue enviado');"><br><br>
+
+            
+
+
+
+
+    </form>  
+</div>
+
+
+
+
+
+
+</body>
+</html>
